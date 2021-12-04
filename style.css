@@ -1,0 +1,25 @@
+body{
+background-image: url('structure_crystal_spiny_139335_1920x1080.jpg');
+background-size: cover;
+background-position: center;
+}
+center{
+background-color: crimson;
+color:darkturquoise;
+font-family: 'Bebas Neue', cursive;
+}
+#buttonsnap{
+background-color: black;
+border-color: black;
+}
+canvas{
+border-width: 2px;
+border-style: groove;
+border-color: cadetblue;
+box-shadow:5px 5px 18px blueviolet;
+animation: AMOLED 5s infinite;
+}
+@keyframes AMOLED{
+from{box-shadow:5px 5px 18px blueviolet(47, 43, 51);}
+to{box-shadow:5px 5px 18px yellow;}
+}
